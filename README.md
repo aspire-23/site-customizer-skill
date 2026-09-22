@@ -7,7 +7,7 @@
 ## 安装
 
 ```bash
-git clone https://github.com/<你的用户名>/site-customizer-skill.git
+git clone https://github.com/aspire-23/site-customizer-skill.git
 
 # macOS / Linux
 cp -r site-customizer-skill/skills/site-customizer ~/.codex/skills/
@@ -15,6 +15,7 @@ cp -r site-customizer-skill/skills/site-customizer ~/.codex/skills/
 
 ```powershell
 # Windows PowerShell
+git clone https://github.com/aspire-23/site-customizer-skill.git
 Copy-Item -Recurse .\site-customizer-skill\skills\site-customizer $env:USERPROFILE\.codex\skills\
 ```
 
