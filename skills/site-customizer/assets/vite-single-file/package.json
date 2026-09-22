@@ -1,0 +1,13 @@
+{
+  "name": "editable-site",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && node scripts/classic-script.mjs dist",
+    "build:editor": "npm run build && node scripts/embed-template.mjs && vite build --mode editor && node scripts/classic-script.mjs dist-editor",
+    "build:editor:public": "npm run build && node scripts/embed-template.mjs && vite build --mode editor-public && node scripts/classic-script.mjs dist-editor-public",
+    "preview": "vite preview"
+  }
+}
